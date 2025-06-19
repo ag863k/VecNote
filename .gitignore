@@ -1,0 +1,146 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+.pnpm-debug.log*
+.pnpm-store/
+
+# Environment variables - CRITICAL FOR SECURITY
+.env
+.env.*
+*.env
+.environment
+
+# Build outputs
+.next/
+out/
+build
+dist
+*.tsbuildinfo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+.dbdata/
+*.sql.backup
+database.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage
+.nyc_output
+test-results/
+playwright-report/
+.coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+.turbo/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Secrets and credentials - CRITICAL FOR SECURITY
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+secrets/
+.secrets/
+config/secrets/
+api-keys.json
+api-keys/
+tokens.json
+credentials.json
+service-account.json
+private-key.*
+auth.json
+.auth
+*.secret
+
+# OAuth and API keys
+client_secret.json
+client_secrets.json
+oauth_credentials.json
+google-credentials.json
+github-token
+access-token*
+refresh-token*
+
+# AWS and Cloud credentials
+.aws/
+aws-credentials
+.gcp/
+gcp-credentials.json
+azure-credentials.json
+
+# Deployment and CI secrets
+.deployment-secrets
+deploy-keys/
+ci-secrets/
+*.deploy.json
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Vercel
+.vercel
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Upload directories
+uploads/
+temp/
+tmp/
+
+# Session storage
+sessions/
+.session-store/

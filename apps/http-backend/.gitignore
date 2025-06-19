@@ -1,0 +1,63 @@
+# Dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables - CRITICAL FOR SECURITY
+.env*
+*.env
+.environment
+
+# Build outputs
+dist
+build
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+
+# Coverage
+coverage
+*.lcov
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Secrets and credentials - CRITICAL FOR SECURITY
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+.secrets/
+config/secrets/
+api-keys.json
+tokens.json
+client_secret.json
+oauth_credentials.json
+auth.json
+access-token*
+refresh-token*
+jwt-secret*
+session-keys/
+private-key.*
+
+# Backend specific
+uploads/
+temp/
+tmp/
+.cache/
+sessions/
+auth-tokens/
+.session-store/
+
+# OS
+.DS_Store
+Thumbs.db

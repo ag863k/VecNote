@@ -1,0 +1,36 @@
+node_modules
+
+# Environment variables - CRITICAL FOR SECURITY
+.env*
+*.env
+.environment
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+.dbdata/
+migrations.json
+*.sql.backup
+database.json
+db-backup*
+
+# Prisma
+.prisma/
+
+# Logs
+*.log
+logs/
+
+# Secrets and credentials - CRITICAL FOR SECURITY
+*.key
+*.pem
+secrets/
+database-secrets.json
+connection-string.json
+db-credentials.json
+postgres-credentials.json
+
+# Backup files  
+*.backup
+*.bak

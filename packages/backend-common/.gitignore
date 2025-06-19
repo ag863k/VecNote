@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Environment variables - CRITICAL FOR SECURITY
+.env*
+*.env
+.environment
+
+# Build outputs
+dist
+build
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Secrets and credentials - CRITICAL FOR SECURITY
+*.key
+*.pem
+secrets/
+config/secrets/
+api-keys.json
+tokens.json
+client_secret.json
+oauth_credentials.json
+auth.json
+jwt-secret*
+session-secret*
+private-key.*
+
+# OS
+.DS_Store
+Thumbs.db
